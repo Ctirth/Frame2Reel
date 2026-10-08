@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Generated / user data
+user_uploads/*
+!user_uploads/.gitkeep
+static/reels/*
+!static/reels/.gitkeep
+done.txt
+ffmpeg_command.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
